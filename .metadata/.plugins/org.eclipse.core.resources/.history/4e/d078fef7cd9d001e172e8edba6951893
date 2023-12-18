@@ -1,0 +1,8 @@
+package in.neuron.entity;
+
+
+@Data
+
+public class StockPrice {
+  
+}

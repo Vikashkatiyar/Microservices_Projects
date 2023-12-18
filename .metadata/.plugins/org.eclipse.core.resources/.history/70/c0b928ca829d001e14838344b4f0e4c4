@@ -1,0 +1,6 @@
+package in.neuron.restcontroller;
+
+
+public class HiRestController {
+
+}

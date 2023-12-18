@@ -1,0 +1,24 @@
+package in.neuron.service;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import in.neuron.entity.StockPrice;
+import in.neuron.repository.StockRepository;
+
+@Service
+public class StockPriceServiceImpl implements IStockPriceService {
+
+	@Autowired
+	private StockRepository repo;
+	
+	@Override
+	public Double findByCompanyName(String companyName) {
+		StockPrice stockPrice = repo.FindByCompanyName(companyName);
+		if(stockPrice==null) {
+			
+		}
+		return null;
+	}
+
+}

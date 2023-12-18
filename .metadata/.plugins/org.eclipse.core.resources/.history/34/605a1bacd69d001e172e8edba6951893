@@ -1,0 +1,13 @@
+package in.neuron.service;
+
+
+@S
+public class StockPriceServiceImpl implements IStockPriceService {
+
+	@Override
+	public Double findByCompanyName(String companyName) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

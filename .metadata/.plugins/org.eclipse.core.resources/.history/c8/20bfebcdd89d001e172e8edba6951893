@@ -1,0 +1,17 @@
+package in.neuron.globalhandler;
+
+import org.springframework.http.HttpStatus;
+import org.springframework.http.HttpStatusCode;
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.RestControllerAdvice;
+
+import in.neuron.exception.StockNotFoundException;
+
+@RestControllerAdvice
+public class StockRestApiError {
+    
+	
+	public ResponseEntity<String> handleCompanyNotFoundException(StockNotFoundException se){
+		return new ResponseEntity<String>(se.getMessage(), HttpStatus.BAD_REQUEST);
+	}
+}

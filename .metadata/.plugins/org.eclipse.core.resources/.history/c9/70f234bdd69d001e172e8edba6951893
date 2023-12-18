@@ -1,0 +1,16 @@
+package in.neuron.service;
+
+import org.springframework.stereotype.Service;
+
+@Service
+public class StockPriceServiceImpl implements IStockPriceService {
+
+	
+	
+	@Override
+	public Double findByCompanyName(String companyName) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

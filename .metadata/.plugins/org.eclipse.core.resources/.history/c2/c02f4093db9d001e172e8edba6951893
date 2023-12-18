@@ -1,0 +1,14 @@
+package in.neuron;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+@ComponentScan({"main.controllers", "main.repositories"})
+public class StockServiceApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(StockServiceApplication.class, args);
+	}
+
+}

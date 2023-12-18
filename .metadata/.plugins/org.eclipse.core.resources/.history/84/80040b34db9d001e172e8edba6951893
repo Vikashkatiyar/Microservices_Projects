@@ -1,0 +1,10 @@
+package in.neuron.service;
+
+@ser
+
+public interface IStockPriceService {
+
+	
+	public Double findByCompanyName(String companyName);
+	
+}

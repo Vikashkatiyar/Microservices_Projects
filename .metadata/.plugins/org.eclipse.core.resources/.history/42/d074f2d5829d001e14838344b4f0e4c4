@@ -1,0 +1,12 @@
+package in.neuron.restcontroller;
+
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+public class HiRestController {
+
+	
+	public String saHiee(String name) {
+		String 
+	}
+}

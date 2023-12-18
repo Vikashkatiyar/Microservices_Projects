@@ -1,0 +1,2 @@
+
+insert into STOCK-PRICE(STOCK_ID,COMPANY_NAME,COMPANY_PRICE) values();

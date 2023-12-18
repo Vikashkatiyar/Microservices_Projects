@@ -1,0 +1,21 @@
+
+#Details about H2 database
+spring.datasource.driverClassName=org.h2.Driver
+spring.datasource.url=jdbc:h2:mem:ineurondb
+spring.datasource.username=sa
+spring.datasource.password=password
+
+#Dialect information of H2 database
+spring.jpa.database-platform=org.hibernate.dialect.H2Dialect
+
+
+#Dispalying the query details on console
+spring.jpa.show-sql=true
+spring.jpa.hibernate.ddl-auto=update
+spring.jpa.properties.hibernate.format_sql=true
+
+#Enabling the H2 console
+spring.h2.console.enabled=true
+
+#server port to host aur application and same port will be used for H2-Database
+server.port=

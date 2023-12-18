@@ -1,0 +1,11 @@
+package in.neuron.entity;
+
+import jakarta.persistence.Entity;
+import lombok.Data;
+
+@Data
+@Entity
+@Table(name="STOCK")
+public class StockPrice {
+  
+}

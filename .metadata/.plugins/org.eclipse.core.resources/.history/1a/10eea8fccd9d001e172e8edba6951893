@@ -1,0 +1,9 @@
+package in.neuron.entity;
+
+import lombok.Data;
+
+@Data
+@Enti
+public class StockPrice {
+  
+}

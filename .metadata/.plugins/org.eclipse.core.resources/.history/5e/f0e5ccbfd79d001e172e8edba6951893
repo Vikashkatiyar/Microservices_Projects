@@ -1,0 +1,5 @@
+package in.neuron.exception;
+
+public class StockNotFoundException extends  {
+
+}

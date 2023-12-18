@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="Server-Registery-Eureka-server">
+        <wb-resource deploy-path="/" source-path="/src/main/webapp"/>
+        <property name="context-root" value="Server-Registery-Eureka-server"/>
+        <property name="java-output-path" value="/Server-Registery-Eureka-server/target/classes"/>
+    </wb-module>
+</project-modules>

@@ -1,0 +1,9 @@
+package in.neuron.client;
+
+import org.springframework.web.bind.annotation.GetMapping;
+
+public interface HelloClient {
+	
+    @GetMapping("/hello")
+	public String invokeHelloService();
+}

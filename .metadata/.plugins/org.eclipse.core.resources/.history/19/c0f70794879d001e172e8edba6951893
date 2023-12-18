@@ -1,0 +1,3 @@
+
+server.port=999
+spring.application.name=HI-SERVICE

@@ -1,0 +1,19 @@
+package in.neuron.restcontroller;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+import in.neuron.service.IStockPriceService;
+
+@RestController
+@RequestMapping("/api/price")
+public class StockPriceController {
+  
+	@Autowired
+	private IStockPriceService service;
+	
+	public ResponseEntity<Double> getStockPrice(@PathVariable String companyName)
+}

@@ -1,0 +1,7 @@
+package in.neuron.client;
+
+public interface HelloClient {
+	
+    
+	public String invokeHelloService();
+}

@@ -1,0 +1,23 @@
+package in.neuron.restcontroller;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.RestController;
+
+import in.neuron.client.HelloClient;
+
+@RestController
+public class HiRestController {
+	
+	@Autowired
+	private HelloClient client;
+
+	@GetMapping("/hi/{name}")
+	public String sayHiee( @PathVariable("name") String name) {
+		System.out.println("Implementaion className is :: "+client);
+		
+		String hieeMsg="Hiee";
+		return hieeMsg+" "+name+" how r u ?";
+	}
+}
