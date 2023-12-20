@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RestController;
 import in.neuron.client.StockClient;
 
 @RestController
-@RequestMapping("/api/calc")
+@RequestMapping("/calc")
 public class StockCalculationRestController {
 	
 	@Autowired

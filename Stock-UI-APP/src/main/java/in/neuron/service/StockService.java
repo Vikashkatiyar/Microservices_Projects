@@ -9,7 +9,7 @@ public class StockService {
 	
 	public String getTotalStockPrice(String companyName, Integer quantity) {
 		
-		String REST_END_POINT="http://localhost:1111/api/calc/calculate/{companyName}/{quantity}";
+		String REST_END_POINT="http://localhost:4444/api/calc/calculate/{companyName}/{quantity}";
 		String response=null;
 		
 		WebClient webClient=WebClient.create();
